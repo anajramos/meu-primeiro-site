@@ -1,0 +1,16 @@
+/* resetar o css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2, p{
+    text-align: center;
+}
+header{
+    background-color: purple;
+    color: white;
+    padding: 75px;
+}
