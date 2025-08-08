@@ -2,9 +2,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 2;
 }
 h2, p{
     text-align: center;
@@ -13,8 +18,30 @@ header{
     background-color: purple;
     color: white;
     padding: 75px;
+    text-align: center;
 }
 main{
-    height: 600px;
     background-color: blanchedalmond;
+    flex: 1;
+    padding: 48px 38px;
+}
+
+#Sobre-Mim {
+    display: block;
+    background-color: rgb(190, 190, 45);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+#titulo-Sobre-Mim {
+    font-size: 40px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+}
+
+.texto-sobre-mim {
+    font-size: 20px;
 }
