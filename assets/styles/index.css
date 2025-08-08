@@ -28,11 +28,12 @@ main{
 
 #Sobre-Mim {
     display: block;
-    background-color: rgb(190, 190, 45);
+    background-color: rgba(94, 3, 81, 0.363);
     width: 80%;
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
+    margin-bottom: 40px;
 }
 
 #titulo-Sobre-Mim {
@@ -44,4 +45,40 @@ main{
 
 .texto-sobre-mim {
     font-size: 20px;
+}
+#meus-hobbies {
+    background-color: rgba(109, 12, 65, 0.014);
+    width: 80%;
+    margin-bottom: 16px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#titulo-meus-hobbies {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+background-color:rgba(116, 12, 112, 0.445);
+padding: 8PX;
+border-left: 4px solid black;
+border-radius: 6px;
+font-size: 16px;
+min-width: 250px;
+
+}
+
+li:hover {
+    background-color: purple;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+
 }
