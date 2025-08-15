@@ -121,3 +121,15 @@ li:hover {
     color: white;
     transform: translateY(-2px);
 }
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
